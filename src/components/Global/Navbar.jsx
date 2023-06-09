@@ -23,8 +23,8 @@ const Navbar = () => {
   return (
     <nav className="navbar flex justify-between items-center">
       <div>
-        <Link to='/'>
-        <h2 className={`${styles.heading2}`}>LOGO</h2>
+        <Link to="/">
+          <h2 className={`${styles.heading2}`}>RenovationConnect</h2>
         </Link>
       </div>
 
@@ -41,9 +41,9 @@ const Navbar = () => {
           Contact Us
         </button>
         {currentPage !== "/" &&
-          currentPage !== "/services" && 
+          currentPage !== "/services" &&
           currentPage !== "/request-a-quote" && ( // Render the button only if not on the homepage
-            <Link to='/request-a-quote'>
+            <Link to="/request-a-quote">
               <button className="px-[20px] py-[15px] text-background bg-accent">
                 Request a Quote
               </button>
@@ -52,10 +52,10 @@ const Navbar = () => {
       </div>
 
       <div className="md:hidden flex font-Quicksand items-center gap-3">
-      {currentPage !== "/" &&
-          currentPage !== "/services" && 
+        {currentPage !== "/" &&
+          currentPage !== "/services" &&
           currentPage !== "/request-a-quote" && ( // Render the button only if not on the homepage
-            <Link to='/request-a-quote'>
+            <Link to="/request-a-quote">
               <button className="px-[10px] py-[2px] text-background bg-accent">
                 Quote
               </button>
