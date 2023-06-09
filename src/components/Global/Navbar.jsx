@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className="navbar flex justify-between items-center">
       <div>
         <Link to="/">
-          <h2 className={`${styles.heading2}`}>RenovationConnect</h2>
+          <h2 className={`${styles.heading2}`}>RC</h2>
         </Link>
       </div>
 

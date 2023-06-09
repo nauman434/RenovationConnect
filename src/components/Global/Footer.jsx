@@ -28,7 +28,7 @@ const Footer = () => {
           <div className="flex md:flex-row flex-col justify-between w-[600px] gap-[30px]">
             <div className="flex items-center justify-center">
               <h2 className={`${styles.heading2}  text-background`}>
-                RenovationConnect
+                RC
               </h2>
             </div>
 
